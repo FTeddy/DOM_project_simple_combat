@@ -1,0 +1,50 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+}
+
+#main {
+  padding: 40px;
+  height:100vh;
+  text-align: center; /*pair with display: inline-block on child*/
+}
+
+#game-screen {
+  display: inline-block;
+  padding: 5px;
+  max-width: 900px;
+  /* max-height: 200px; */
+  border: 1px solid black;
+}
+
+#display {
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.log{
+  margin: 5px;
+  padding : 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  height: 150px;
+  overflow-y: auto;
+  background-color: rgb(240, 240, 240);
+}
+
+#combat-log {
+  width: 400px;
+}
+
+#control-screen {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
